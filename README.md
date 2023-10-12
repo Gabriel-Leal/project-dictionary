@@ -1,3 +1,5 @@
+![logo](./screenshoot/logo.svg) 
+
 # Projeto: Dictionary - Find your words
 #### *This a challenge by Coodesh*
 
@@ -10,42 +12,78 @@ O aplicativo possui várias funcionalidades que facilitam a exploração e o ger
 ### Listagem de Palavras:
 A página principal do aplicativo exibe uma lista de palavras em inglês, que é carregada a partir da API Free Dictionary API.
 Cada palavra é apresentada como um item da lista, tornando fácil a visualização.
+<div align="center">
+  <img src="./screenshoot/home.jpg" alt="home" width="200"/>
+</div>
 
 ### Detalhes da Palavra:
 Ao tocar em uma palavra da lista, o usuário pode acessar os detalhes da palavra.
 Os detalhes incluem informações como a pronúncia fonética da palavra, significados associados a ela e exemplos de uso.
+<div align="center">
+  <img src="./screenshoot/details_01.jpg" alt="details" width="200"/>
+  <img src="./screenshoot/details_02.jpg" alt="details" width="200"/>
+</div>
 
 ### Reprodução de Áudio:
 O aplicativo permite aos usuários ouvir a pronúncia correta da palavra, fornecendo uma função de reprodução de áudio para as palavras que possuem áudio disponível.
+<div align="center">
+  <img src="./screenshoot/audio.jpg" alt="audio" width="200"/>
+</div>
 
 ### Marcação como Favorita:
 Os usuários podem marcar palavras como favoritas para acesso rápido posteriormente.
 Um ícone de estrela indica se uma palavra é favorita ou não.
+<div align="center">
+  <img src="./screenshoot/favorite_01.jpg" alt="favorite" width="200"/>
+  <img src="./screenshoot/favorite_02.jpg" alt="favorite" width="200"/>
+</div>
 
 ### Histórico de Palavras Visualizadas:
 O aplicativo mantém um histórico das palavras que o usuário visualizou recentemente.
+<div align="center">
+  <img src="./screenshoot/history.jpg" alt="history" width="200"/>
+</div>
 
 ### Navegação entre Palavras:
 Os usuários podem navegar para a próxima palavra ou voltar para a palavra anterior, tornando a exploração contínua e fluida.
+<div align="center">
+  <img src="./screenshoot/navigation.jpg" alt="navigation" width="200"/>
+</div>
 
 ### Carregamento de Mais Palavras:
 À medida que o usuário rola a lista de palavras, o aplicativo carrega mais palavras para permitir a exploração contínua.
+<div align="center">
+  <img src="./screenshoot/loading_words.jpg" alt="loading words" width="200"/>
+</div>
 
 ### Gerenciamento de Favoritos:
 Os usuários podem gerenciar suas palavras favoritas, adicionando ou removendo itens da lista de favoritos.
+<div align="center">
+  <img src="./screenshoot/favorite.jpg" alt="favorite" width="200"/>
+</div>
 
 ### Tela de Login:
 Os usuários podem fazer login em suas contas para acessar recursos personalizados e sincronizar dados entre dispositivos.
 A tela de login requer autenticação, garantindo a segurança das contas de usuário.
+<div align="center">
+  <img src="./screenshoot/signin.jpg" alt="signin" width="200"/>
+</div>
 
 ### Tela de Cadastro:
 Os novos usuários podem criar contas no aplicativo por meio da tela de cadastro.
 O cadastro requer informações básicas, como nome de usuário, senha e endereço de e-mail. Há também uma validação para garantir que o usuário insira no mínimo 6 caracteres para aumentar a segura de acesso.
+<div align="center">
+  <img src="./screenshoot/signup.jpg" alt="signup" width="200"/>
+</div>
 
 ### Tela de Perfil:
-
 A tela de perfil permite aos usuários gerenciar suas informações pessoais e configurações de conta.
 Os usuários podem trocar sua foto de perfil e atualizar sua senha com segurança.
+<div align="center">
+  <img src="./screenshoot/profile_01.jpg" alt="profile" width="200"/>
+  <img src="./screenshoot/profile_02.jpg" alt="profile" width="200"/>
+</div>
+
 
 ## Tecnologias Utilizadas (Backend)
   O backend deste projeto, nomeado "api", foi desenvolvido como parte do módulo de consumo de API, apresentado como um desafio pela Coodesh. Abaixo estão as tecnologias e bibliotecas essenciais utilizadas:
