@@ -3,7 +3,7 @@
 # Projeto: Dictionary - Find your words
 #### *This a challenge by Coodesh*
 
-Este projeto consiste em um aplicativo móvel desenvolvido com o objetivo de listar e gerenciar palavras em inglês, utilizando a API Free Dictionary API como fonte de dados. O aplicativo oferece uma experiência de usuário intuitiva para buscar, visualizar e gerenciar palavras em inglês, tornando-o uma ferramenta útil para estudantes e entusiastas da língua inglesa.
+Este projeto consiste em um aplicativo móvel desenvolvido com o objetivo de listar e gerenciar palavras, utilizando a API Free Dictionary API como fonte de dados. O aplicativo oferece uma experiência de usuário intuitiva para buscar, visualizar e gerenciar palavras.
 
 ## Recursos e Funcionalidades:
 
@@ -134,7 +134,7 @@ Certifique-se de ter o Node.js e o NPM instalados no seu computador. Você pode 
 - Clone o repositório do projeto para sua máquina local usando:
 
     ```
-  $ git clone [URL_DO_REPOSITÓRIO]
+  $ git clone https://github.com/Gabriel-Leal/project-dictionary.git
     ```
 
 - Navegue até o diretório do projeto:
@@ -180,12 +180,11 @@ Tenha o Expo CLI instalado globalmente usando npm install -g expo-cli.
 ```
 npm install -g expo-cli
 ```
-#### 2. Clonando o Repositório:
-- Clone o repositório do projeto para sua máquina local usando:
+#### 2. Entrar na pasta do frontend
 
-```
-git clone [URL_DO_REPOSITÓRIO]
-```
+  ```
+  $ cd frontend
+  ```
 #### 3. Instalando Dependências:
 - Instale todas as dependências necessárias do projeto usando:
 
