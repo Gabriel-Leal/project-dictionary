@@ -1,6 +1,46 @@
 {
   "extends": "expo/tsconfig.base",
+  "include": ["src/**/*", "declarations.d.ts"],
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "baseUrl": "./",
+    "allowJs": true,
+    "jsx": "react-native",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@dtos/*": [
+        "src/dtos/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@screens/*": [
+        "./src/screens/*"
+      ],
+      "@storage/*": [
+        "./src/storage/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@contexts/*": [
+        "./src/contexts/*"
+      ],
+      "@routes/*": [
+        "./src/routes/*"
+      ],
+      
+    }
   }
 }
